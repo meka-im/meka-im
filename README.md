@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/meka-im/meka-im/main/assets/meka-banner.svg" alt="MEKA - Public data, ready to use." width="100%" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/meka-im/meka-im/main/assets/meka-banner.svg?v=20261024-brand2" alt="MEKA - Public data, ready to use." width="100%" /></p>
 
 <p align="center">
   <a href="https://meka.im">Website</a> ·
