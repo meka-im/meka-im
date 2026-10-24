@@ -1,62 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">MEKA - Public data, ready to use.</title>
-  <desc id="desc">MEKA makes public web data ready for APIs, AI agents, and automation. Featured Apify Actors cover LinkedIn, Google Maps, TikTok, and Similarweb.</desc>
+  <title id="title">MEKA — Public data, ready to use.</title>
+  <desc id="desc">MEKA wordmark with a restrained light blue background and the message: Structured web data for AI agents and automation.</desc>
 
-  <rect width="1200" height="320" fill="#095DFF"/>
-  <circle cx="1168" cy="24" r="188" fill="#FFFFFF" opacity="0.045"/>
-  <circle cx="1168" cy="24" r="116" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.10"/>
-  <path d="M0 286C190 250 360 300 540 272C730 242 900 278 1200 234V320H0Z" fill="#003FB8" opacity="0.16"/>
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.58" stop-color="#f9fbff"/>
+      <stop offset="1" stop-color="#f2f7ff"/>
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="0" cy="0" r="1" gradientTransform="translate(1090 54) rotate(90) scale(360 470)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9dc5ff" stop-opacity="0.34"/>
+      <stop offset="0.52" stop-color="#cfe2ff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#f7f9fc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lowerGlow" cx="0" cy="0" r="1" gradientTransform="translate(178 318) rotate(-37) scale(310 250)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d8e8ff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#f7f9fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="72" y1="0" x2="294" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#075cf5" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#075cf5" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
 
-  <g transform="translate(64 51)" fill="#FFFFFF" aria-hidden="true">
-    <circle cx="8" cy="8" r="7"/>
-    <rect x="18" y="0" width="14" height="14" rx="4"/>
-    <rect x="0" y="18" width="14" height="14" rx="4"/>
-    <circle cx="26" cy="26" r="7"/>
+  <rect x="1" y="1" width="1198" height="318" rx="27" fill="url(#canvas)" stroke="#dfe9f6" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="318" rx="27" fill="url(#heroGlow)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="27" fill="url(#lowerGlow)"/>
+
+  <g aria-hidden="true">
+    <circle cx="1048" cy="62" r="174" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.72"/>
+    <circle cx="1048" cy="62" r="218" fill="none" stroke="#b9d2f6" stroke-width="1" stroke-opacity="0.22"/>
+    <circle cx="1048" cy="62" r="266" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.66"/>
   </g>
-  <text x="113" y="78" fill="#FFFFFF" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="5">MEKA</text>
 
-  <text x="64" y="124" fill="#FFFFFF" opacity="0.72" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1">PUBLIC WEB DATA  /  BUILT FOR AUTOMATION</text>
-
-  <g fill="#FFFFFF" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="650">
-    <text x="64" y="176" font-size="57" letter-spacing="-2.1">Public data,</text>
-    <text x="64" y="233" font-size="57" letter-spacing="-2.1">ready to use.</text>
+  <g transform="translate(966 77) scale(2.25)" opacity="0.065" aria-hidden="true">
+    <rect width="64" height="64" rx="18" fill="#075cf5"/>
+    <rect x="14" y="14" width="15" height="15" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+    <rect x="35" y="14" width="15" height="15" rx="4" fill="#ffffff" fill-opacity="0.70"/>
+    <rect x="14" y="35" width="15" height="15" rx="4" fill="#ffffff" fill-opacity="0.70"/>
+    <rect x="35" y="35" width="15" height="15" rx="4" fill="#ffffff" fill-opacity="0.95"/>
   </g>
-  <text x="64" y="272" fill="#FFFFFF" opacity="0.86" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="450">APIs for AI agents &amp; automation.</text>
 
-  <line x1="702" y1="53" x2="702" y2="274" stroke="#FFFFFF" stroke-width="1" opacity="0.24"/>
-  <text x="748" y="78" fill="#FFFFFF" opacity="0.68" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2">FEATURED APIFY ACTORS</text>
+  <g transform="translate(72 52)" aria-label="MEKA logo">
+    <rect width="64" height="64" rx="18" fill="#075cf5"/>
+    <rect x="14" y="14" width="15" height="15" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+    <rect x="35" y="14" width="15" height="15" rx="4" fill="#ffffff" fill-opacity="0.70"/>
+    <rect x="14" y="35" width="15" height="15" rx="4" fill="#ffffff" fill-opacity="0.70"/>
+    <rect x="35" y="35" width="15" height="15" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+  </g>
+  <text x="158" y="92" fill="#061b37" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5.2">MEKA</text>
+  <rect x="72" y="132" width="222" height="1.5" rx="0.75" fill="url(#rule)"/>
 
-  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
-    <g transform="translate(748 96)">
-      <rect width="190" height="76" rx="13" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.25"/>
-      <circle cx="24" cy="26" r="12" fill="none" stroke="#FFFFFF" stroke-opacity="0.60"/>
-      <text x="24" y="30" fill="#FFFFFF" font-size="10" font-weight="700" text-anchor="middle">01</text>
-      <text x="46" y="31" fill="#FFFFFF" font-size="19" font-weight="650">LinkedIn</text>
-      <text x="46" y="55" fill="#FFFFFF" opacity="0.66" font-size="11" font-weight="650" letter-spacing="1.1">JOBS</text>
-    </g>
+  <text x="72" y="184" fill="#061b37" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" letter-spacing="-2.4">Public data, ready to use.</text>
+  <text x="74" y="228" fill="#45627f" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" letter-spacing="-0.18">Structured web data for AI agents and automation</text>
 
-    <g transform="translate(954 96)">
-      <rect width="190" height="76" rx="13" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.25"/>
-      <circle cx="24" cy="26" r="12" fill="none" stroke="#FFFFFF" stroke-opacity="0.60"/>
-      <text x="24" y="30" fill="#FFFFFF" font-size="10" font-weight="700" text-anchor="middle">02</text>
-      <text x="46" y="31" fill="#FFFFFF" font-size="19" font-weight="650">Google Maps</text>
-      <text x="46" y="55" fill="#FFFFFF" opacity="0.66" font-size="11" font-weight="650" letter-spacing="1.1">BUSINESS</text>
-    </g>
-
-    <g transform="translate(748 184)">
-      <rect width="190" height="76" rx="13" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.25"/>
-      <circle cx="24" cy="26" r="12" fill="none" stroke="#FFFFFF" stroke-opacity="0.60"/>
-      <text x="24" y="30" fill="#FFFFFF" font-size="10" font-weight="700" text-anchor="middle">03</text>
-      <text x="46" y="31" fill="#FFFFFF" font-size="19" font-weight="650">TikTok</text>
-      <text x="46" y="55" fill="#FFFFFF" opacity="0.66" font-size="11" font-weight="650" letter-spacing="1.1">COMMENTS</text>
-    </g>
-
-    <g transform="translate(954 184)">
-      <rect width="190" height="76" rx="13" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.25"/>
-      <circle cx="24" cy="26" r="12" fill="none" stroke="#FFFFFF" stroke-opacity="0.60"/>
-      <text x="24" y="30" fill="#FFFFFF" font-size="10" font-weight="700" text-anchor="middle">04</text>
-      <text x="46" y="31" fill="#FFFFFF" font-size="19" font-weight="650">Similarweb</text>
-      <text x="46" y="55" fill="#FFFFFF" opacity="0.66" font-size="11" font-weight="650" letter-spacing="1.1">ANALYTICS</text>
-    </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" letter-spacing="0.7">
+    <text x="74" y="280" fill="#526b85">meka.im</text>
+    <circle cx="136" cy="275.5" r="1.5" fill="#075cf5" fill-opacity="0.52"/>
+    <text x="146" y="280" fill="#526b85">Apify</text>
   </g>
 </svg>
